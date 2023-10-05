@@ -1,0 +1,131 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: arial;
+}
+
+header{
+background-color: rgb(199, 199, 21);
+color: white;
+text-align: center;
+padding: 15px;
+border-bottom: inset 3px rgb(152, 152, 16);
+border-top:inset 3px rgb(152, 152, 16); 
+}
+
+h4{
+font-size: larger;
+}
+.conversar{
+color: rgb(199, 199, 21);
+font-style:italic;
+}
+
+h5{
+font-size: 16px;
+background-color: #f6f6f6;
+padding: 30px;
+}
+
+.container{
+background-color: #eee;
+min-height: 70vh;
+padding: 30px;
+}
+.products-container{
+max-width: 1200px;
+margin: 0 auto;
+}
+
+.card{
+width: 25%;
+padding: 10px;
+margin: 1% 4%;
+display: inline-block ;
+}
+.product-image{
+height: 340px;
+width: 100%;
+background-position: center;
+background-size: cover;
+margin-bottom: 5px;
+}
+
+#img-1F{
+background-image: url('../img/flacinho\ jogador.jpg');
+}
+
+#img-2F{
+background-image: url('../img/flavinho\ legal.jpg');
+}
+
+#img-1j{
+    background-image: url('../img/jao\ e\ neynmar.jpg');
+    }
+    #img-2j{
+        background-image: url('../img/jao\ seduzindo.jpg');
+        }
+        #img-1G{
+            background-image: url('../img/guilherme.jpg');
+            }
+            #img-2G{
+                background-image: url('../img/guilhermepequeno.png');
+                }
+
+
+
+
+
+h3{
+color: rgb(199, 199, 21);
+margin-bottom: 9px;
+border-left: 4px solid;
+border-radius: 10px;
+font-size: 24px;
+}
+
+.card p{
+margin-bottom: 20px;
+}
+
+.btn {
+display: block;
+width: 100%;
+text-align: center;
+text-transform: uppercase;
+text-decoration: none;
+background-color:  rgb(199, 199, 21);
+color: #fff;
+padding: 18px;
+border-radius:30px;
+transition: 0.5s;
+margin-top: 30px;
+}
+.btn:hover{
+background-color: rgb(152, 152, 16) ;
+}
+
+footer{
+    background-color: rgb(199, 199, 21);
+    text-align: center;
+    border-bottom: inset 3px rgb(152, 152, 16);
+border-top:inset 3px rgb(197, 197, 20); 
+color: white;
+ padding: 80px;   
+}
+
+.link{
+text-decoration: none;
+list-style: none;
+color: black;
+text-align: left;
+padding: 5px;
+font-style: italic;
+}
+
+.links-uteis{
+    font-style: italic;
+text-align: left;
+padding: 10px;
+}
